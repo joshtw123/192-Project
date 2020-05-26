@@ -1,27 +1,45 @@
-header, section, footer, aside, nav, article, figure, figcaption {
-	display: block;}
-	
-body {
-	color: #666666;
-	background-color: #f9f8f6;
-	background-image: url("../images/dark-wood.jpg");
+#header-image {
+	height: 100%;
+	background-image: url("../images/header.jpg");	
 	background-position: center;
-	font-family: Georgia, Times, serif;
-	line-height: 1.4em;
-	margin: 0px;}
+	background-repeat: no-repeat;
+	background-size: cover;		
+}
+
+#header {	
+	max-width: 900px;
+	margin: 0 auto;    
+	padding: 200px;	
+}
+
+h1 {
+	font-size: 500%;
+	color: white;
+}
+
+#intro {
+	font-weight: bold;	
+	font-size: 150%;
+	color: white;
+}
+
+.center {
+	text-align: center;
+}
+
+#content {
+	max-width: 900px;
+	margin: 0 auto;
+}	
+
+
+
 .wrapper {
 	width: 940px;
 	margin: 20px auto 20px auto;
 	border: 2px solid #000000;
 	background-color: #ffffff;}
-header {
-	height: 160px;
-	background-image: url("../images/header.jpg");}
-h1 {
-	text-indent: -9999px;
-	width: 940px;
-	height: 130px;
-	margin: 0px;}
+
 
 
 img {
@@ -35,12 +53,12 @@ img {
 
 section.programs {
 	float: left;
-	width: 659px;
+	width: 925px;
 	border-right: 1px solid #eeeeee;}
 	
 section.search {
 	float: left;
-	width: 659px;
+	width: 925px;
 	border-right: 1px solid #eeeeee;}	
 section.search p {
 	margin: 20px 10px 0 10px;
@@ -57,7 +75,7 @@ section.programs h2 {
 
 	
 figure {
-	float: left;
+	float: right;
 	width: 290px;
 	height: 220px;
 	padding: 5px;
@@ -78,11 +96,9 @@ h2 {
 	padding: 0px;}
 h3 {
 	margin: 0px 0px 10px 0px;
-	color: #de6581;}
+	color: blue;}
 
-footer {
-	font-size: 80%;
-	padding: 7px 0px 0px 20px;}
+
 	
 	
 section.programs p.hidden {
@@ -91,4 +107,6 @@ section.programs	p span{
 	cursor: pointer;
 	font-weight: bold;}
 	
+#more {display: none;}
+#more2 {display: none;}	
 	
