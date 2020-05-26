@@ -3,7 +3,7 @@ const PROGRAMS = [
 		id: "program-1",
 		program_title: "France",
 		program_subtitle: "Exchange program to France",
-		program_description: 'Description about exchange program to France<p>Read more <span id="dots">...</span><span id="more">More</span></p> <button onclick="myFunction()" id="myBtn">Read more</button>',
+		program_description: 'Description about exchange program to France<p>Read more <span id="dots1">...</span><span id="more1">More info here</span></p> <button onclick="myFunction(1)" id="myBtn1">Read more</button>',
 		image: "images/image-1.png",
 		image_title: "Image 1"
 	},	
@@ -11,7 +11,7 @@ const PROGRAMS = [
 		id: "program-2",
 		program_title: "Spain",
 		program_subtitle: "Exchange program to Spain",
-		program_description: 'Description about exchange program to Spain<p>Read more  <span id="dots2">...</span><span id="more2">More</span></p> <button onclick="myFunction2()" id="myBtn2">Read more</button>',
+		program_description: 'Description about exchange program to Spain<p>Read more  <span id="dots2">...</span><span id="more2">More info here</span></p> <button onclick="myFunction(2)" id="myBtn2">Read more</button>',
 		image: "images/image-2.jpg",
 		image_title: "Image 2"
 	},
@@ -128,10 +128,10 @@ function search() {
 
 
 
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+function myFunction(number) {
+  var dots = document.getElementById("dots" + number);
+  var moreText = document.getElementById("more" + number);
+  var btnText = document.getElementById("myBtn" + number);
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
@@ -144,19 +144,5 @@ function myFunction() {
   }
 }
 
-function myFunction2() {
-  var dots = document.getElementById("dots2");
-  var moreText = document.getElementById("more2");
-  var btnText = document.getElementById("myBtn2");
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
-}
 
