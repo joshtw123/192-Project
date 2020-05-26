@@ -3,24 +3,64 @@
 <html>
 	<head>
 		<title>Think Global</title>
-
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="js/javascript.js"></script>
 	</head>
+	
 	<body>
-		<header>
-			<h1>Think Global</h1>
-		</header>
+		<div class="wrapper">
+			<header>
+				<h1>Think Global</h1>
+			</header>
 			
-		<section>
+			<section>
+				<h1>Think Global</h1>
+			<p>
+				Offering international exchange programs.
+				Offering international exchange programs.
+				Offering international exchange programs.
+				Offering international exchange programs.
+				Offering international exchange programs.
+				Offering international exchange programs.
+			</p>
+			</section>
+			
+
+			<section class="search">
+				<p>
+					<input placeholder="Search for an exchange program" type="text" id="searchText">
+					<button type="submit" onclick="search()">Search</button>
+				</p>
+			</section>
+			
+			
+			<section>
 			<p>
 				Offering international exchange programs.
 			</p>
-		</section>
-		
-		<aside>
+			</section>
+			
+			
+			
+			<section class="programs" id="programList">
+				<!-- Dynamic HTML via JS   				
+				--->
 
-		</aside>			
-		<footer>
-			&copy; 2020 Josh W
-		</footer>
+			</section>
+			
+			<p>Testing read more button<span id="dots">...</span><span id="more">
+			More to read!</span></p>
+
+			<button onclick="myFunction()" id="myBtn">Read more</button>
+
+
+
+		
+			
+			<footer>
+				&copy; 2020 Josh W
+			</footer>
 	</body>
+	
 </html>
