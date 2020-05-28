@@ -1,6 +1,6 @@
 #header-image {
 	height: 100%;
-	background-image: url("../images/header.jpg");	
+	background-image: url("../images/nature-header.jpeg");	
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;		
@@ -48,6 +48,12 @@ img {
 
 	width: 300px;
 	height: 200px;
+}
+
+#main-image {
+
+	height: 100%;
+	position: right;
 }
 
 
@@ -98,7 +104,6 @@ h3 {
 	margin: 0px 0px 10px 0px;
 	color: blue;}
 
-
 	
 	
 section.programs p.hidden {
@@ -107,6 +112,11 @@ section.programs	p span{
 	cursor: pointer;
 	font-weight: bold;}
 	
+	
 #more1 {display: none;}
 #more2 {display: none;}	
-	
+#more3 {display: none;}	
+#more4 {display: none;}	
+#more5 {display: none;}	
+#more6 {display: none;}	
+#more7 {display: none;}		

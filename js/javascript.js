@@ -3,41 +3,41 @@ const PROGRAMS = [
 		id: "program-1",
 		program_title: "France",
 		program_subtitle: "Exchange program to France",
-		program_description: 'Description about exchange program to France<p>Read more <span id="dots1">...</span><span id="more1">More info here</span></p> <button onclick="myFunction(1)" id="myBtn1">Read more</button>',
-		image: "images/image-1.png",
-		image_title: "Image 1"
+		program_description: 'Description about exchange program to France<p> <span id="dots1">...</span><span id="more1">Lots of info about the program-Lots of info about the program-Lots of info about the program-</span></p> <button onclick="myFunction(1)" id="myBtn1">Read more</button>',
+		image: "images/france.jpg",
+		image_title: "Paris"
 	},	
 	{
 		id: "program-2",
 		program_title: "Spain",
 		program_subtitle: "Exchange program to Spain",
-		program_description: 'Description about exchange program to Spain<p>Read more  <span id="dots2">...</span><span id="more2">More info here</span></p> <button onclick="myFunction(2)" id="myBtn2">Read more</button>',
-		image: "images/image-2.jpg",
-		image_title: "Image 2"
+		program_description: 'Description about exchange program to Spain<p> <span id="dots2">...</span><span id="more2">More info here</span></p> <button onclick="myFunction(2)" id="myBtn2">Read more</button>',
+		image: "images/spain.jpg",
+		image_title: "Barcelona"
 	},
 	{
 		id: "program-3",
 		program_title: "Germany",
 		program_subtitle: "Exchange program to Germany",
-		program_description: "Description about exchange program to Germany",
-		image: "images/image-3.jpg",
-		image_title: "Image 3"
+		program_description: 'Description about exchange program to Germany<p> <span id="dots3">...</span><span id="more3">More info here</span></p> <button onclick="myFunction(3)" id="myBtn3">Read more</button>',
+		image: "images/germany.jpg",
+		image_title: "Berlin"
 	},
 	{
 		id: "program-4",
 		program_title: "Russia",
 		program_subtitle: "Exchange program to Russia",
-		program_description: "Description about exchange program to Russia",
-		image: "images/image-4.jpg",
-		image_title: "Image 4"
+		program_description: 'Description about exchange program to Russia<p> <span id="dots4">...</span><span id="more4">More info here</span></p> <button onclick="myFunction(4)" id="myBtn4">Read more</button>',
+		image: "images/russia.jpg",
+		image_title: "Moscow"
 	},
 	{
 		id: "program-5",		
 		program_title: "USA",
 		program_subtitle: "Exchange program to USA",
-		program_description: "Description about exchange program to USA",
-		image: "images/image-5.jpg",
-		image_title: "Image 5"
+		program_description: 'Description about exchange program to USA<p> <span id="dots5">...</span><span id="more5">More info here</span></p> <button onclick="myFunction(5)" id="myBtn5">Read more</button>',
+		image: "images/usa.jpg",
+		image_title: "New York"
 	},
 	
 	
@@ -45,18 +45,18 @@ const PROGRAMS = [
 		id: "program-6",		
 		program_title: "Canada",
 		program_subtitle: "Exchange program to Canada",
-		program_description: "Description about exchange program to Canada",
-		image: "images/image-6.jpg",
-		image_title: "Image 6"
+		program_description: 'Description about exchange program to Canada<p> <span id="dots6">...</span><span id="more6">More info here</span></p> <button onclick="myFunction(6)" id="myBtn6">Read more</button>',
+		image: "images/canada.jpg",
+		image_title: "Vancouver"
 	},
 
 	{
 		id: "program-7",		
 		program_title: "Japan",
 		program_subtitle: "Exchange program to Japan",
-		program_description: "Description about exchange program to Japan",
-		image: "images/image-7.jpg",
-		image_title: "Image 7"
+		program_description: 'Description about exchange program to Japan<p> <span id="dots7">...</span><span id="more7">More info here</span></p> <button onclick="myFunction(7)" id="myBtn7">Read more</button>',
+		image: "images/japan.jpg",
+		image_title: "Akihabara"
 	},
  ];
 
