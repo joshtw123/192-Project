@@ -12,9 +12,23 @@
 	padding: 200px;	
 }
 
+body{
+	color: #666666;
+	background-color: #f9f8f6;
+	background-position: center;
+	font-family: Times New Roman, Times, serif;
+	line-height: 1.4em;
+	margin: 0px;
+}
+	
 h1 {
 	font-size: 500%;
 	color: white;
+	
+}
+
+h2 {
+	line-height: 2em;
 }
 
 #intro {
@@ -30,8 +44,12 @@ h1 {
 #content {
 	max-width: 900px;
 	margin: 0 auto;
+
 }	
 
+.copyright{
+	text-align: right;
+}
 
 
 .wrapper {
@@ -45,14 +63,9 @@ h1 {
 img {
 	display: block;
 	margin: 0px auto;
+
 	width: 300px;
 	height: 200px;
-}
-
-#main-image {
-
-	height: 100%;
-	position: right;
 }
 
 
@@ -61,7 +74,8 @@ img {
 section.programs {
 	float: left;
 	width: 925px;
-	border-right: 1px solid #eeeeee;}
+	border-right: 1px solid #eeeeee;
+}
 	
 section.search {
 	float: left;
@@ -80,12 +94,11 @@ section.programs h2 {
 	margin-top: 40px;}
 
 
-
 	
 figure {
 	float: right;
-	width: 290px;
-	height: 220px;
+	width: 310px;
+	height: 230px;
 	padding: 5px;
 	margin: 20px;
 	border: 1px solid #eeeeee;}
@@ -124,58 +137,66 @@ section.programs	p span{
 #more7 {display: none;}	
 
 
+* {box-sizing:border-box}
 
 
-
-* {
-  box-sizing: border-box;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
+.slideshow-container {
+  max-width: 1000px;
   position: relative;
+  margin: auto;
 }
 
-/* Hide the images by default */
+
 .mySlides {
   display: none;
 }
 
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
 
-/* Next & previous buttons */
-.prev,
-.next {
+.prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  top: 50%;
   width: auto;
+  margin-top: -22px;
   padding: 16px;
-  margin-top: -50px;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
+  transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  -webkit-user-select: none;
 }
 
-/* Position the "next button" to the right */
+
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  background-color: rgba(0,0,0,0.8);
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+  background-color: rgba(0,0,0,0.8);
 }
 
-/* Number text (1/3 etc) */
+
+.prev:hover, .next:hover {
+  background-color: blue;
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -184,34 +205,38 @@ section.programs	p span{
   top: 0;
 }
 
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.active, .dot:hover {
+  background-color: #717171;
 }
 
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
-.active,
-.demo:hover {
-  opacity: 1;
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 
@@ -233,5 +258,5 @@ section.programs	p span{
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #555; 
 }
