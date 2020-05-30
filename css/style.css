@@ -125,7 +125,7 @@ section.programs p.hidden {
 	display: none; }
 section.programs	p span{
 	cursor: pointer;
-	font-weight: bold;}
+}
 	
 	
 #more1 {display: none;}
