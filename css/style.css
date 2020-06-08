@@ -54,9 +54,14 @@ h2 {
 
 .wrapper {
 	width: 940px;
-	margin: 20px auto 20px auto;
-	border: 2px solid #000000;
-	background-color: #ffffff;}
+	margin: 20px auto 20px auto;}
+	
+
+#Program_title {
+	font-size: 250%;
+	color: blue;
+	
+}
 
 
 
